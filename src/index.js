@@ -1,1 +1,3 @@
-alert("This is a test");
+import { home } from "./home";
+
+home();
