@@ -63,3 +63,10 @@ body {
     width: 70px;
     border: none;
 }
+
+.about {
+    width: 500px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+}
