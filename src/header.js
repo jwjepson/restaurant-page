@@ -16,6 +16,9 @@ function header() {
     content.appendChild(header);
     header.appendChild(title);
     header.appendChild(ul);
+
+    const pageContent = createHTMLElement("div", "main-content");
+    content.appendChild(pageContent);
 }
 
 export {header};
