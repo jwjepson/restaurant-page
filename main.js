@@ -1,1 +1,1 @@
-alert("This is a test");
+(()=>{"use strict";!function(){const t=document.querySelector("#content"),e=document.createElement("p");e.classList.add("testing"),e.textContent="This is a test",t.appendChild(e)}()})();
