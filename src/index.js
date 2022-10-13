@@ -1,6 +1,7 @@
 import { header } from "./header";
 import { home } from "./home";
 import { about } from "./about";
+import { menu } from "./menu";
 
 
 const content = document.querySelector("#content");
@@ -29,7 +30,8 @@ navItems.forEach((item) => {
             about();
         }
         else if (item.textContent == "Menu") {
-            alert("This is Menu Tab");
+            clearPage();
+            menu();
         }
         else {
             clearPage();
