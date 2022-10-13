@@ -1,4 +1,5 @@
 import { header } from "./header";
+import { home } from "./home";
 
 
 const content = document.querySelector("#content");
@@ -12,5 +13,6 @@ function createHTMLElement(type, id, text) {
 }
 
 header();
+home();
 
 export { createHTMLElement, content };
