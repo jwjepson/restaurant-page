@@ -1,8 +1,18 @@
-.testing {
+body {
+    margin: 0;
+}
+
+
+.title {
     color: blue;
     font-size: 25px;
 }
 
-#content {
-    font-size: 30px;
+.header {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
