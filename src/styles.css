@@ -1,15 +1,20 @@
 body {
     margin: 0;
+    background: url("./background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
 .title {
-    color: blue;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
 }
 
 .header {
-    background-color: lightgray;
+    background-color: rgba(0,0,0,0.5);
     width: 100vw;
     height: 100px;
     display: flex;
@@ -24,5 +29,7 @@ body {
     list-style-type: none;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    color: white;
 
 }
