@@ -13,6 +13,10 @@ body {
     font-size: 35px;
 }
 
+.title:hover, .nav-item:hover, .menu-button:hover{
+    cursor: pointer;
+}
+
 .header {
     background-color: rgba(0,0,0,0.3);
     width: 100vw;
@@ -31,7 +35,6 @@ body {
     align-items: center;
     font-size: 20px;
     color: white;
-
 }
 
 .description {
