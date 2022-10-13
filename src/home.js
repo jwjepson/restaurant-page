@@ -2,8 +2,10 @@ import {createHTMLElement, content} from "./index";
 
 
 function home() {
-    const title = createHTMLElement("div", "title", "This is a title");
-    content.appendChild(title);
+    const header = createHTMLElement("div", "header");
+    const title = createHTMLElement("div", "title", "Boston Pizzeria");
+    content.appendChild(header);
+    header.appendChild(title);
 }
 
 export {home};
