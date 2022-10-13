@@ -73,4 +73,16 @@ body {
 
 .menu {
     color: white;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.category {
+    font-size: 25px;
 }
