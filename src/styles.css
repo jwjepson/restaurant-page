@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     width: 100vw;
     height: 100px;
     display: flex;
@@ -32,4 +32,22 @@ body {
     font-size: 20px;
     color: white;
 
+}
+
+.description {
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
