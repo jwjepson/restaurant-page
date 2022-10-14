@@ -40,5 +40,4 @@ navItems.forEach((item) => {
     });
 });
 
-
-export { createHTMLElement, content };
+export { createHTMLElement, content, clearPage };
