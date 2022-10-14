@@ -1,4 +1,5 @@
-import {createHTMLElement, content} from "./index";
+import {createHTMLElement, content, clearPage } from "./index";
+import { menu } from "./menu";
 
 function home() {
     
@@ -8,6 +9,12 @@ function home() {
 
     const menuButton = createHTMLElement("button", "menu-button", "Menu");
     description.appendChild(menuButton);
+
+    menuButton.addEventListener("click", () => {
+        clearPage();
+        menu();
+    });
+    
 }
 
 
