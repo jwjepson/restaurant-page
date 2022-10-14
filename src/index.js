@@ -2,6 +2,7 @@ import { header } from "./header";
 import { home } from "./home";
 import { about } from "./about";
 import { menu } from "./menu";
+import "./styles.css";
 
 
 const content = document.querySelector("#content");
